@@ -16,7 +16,7 @@ const Booking = () => {
 
     useEffect(()=>{
         getProfileById()
-    }, [])
+    });
 
     const getProfileById = async () => {
         const response = await axios.get('https://freelancerhome.herokuapp.com/profile/' + id);

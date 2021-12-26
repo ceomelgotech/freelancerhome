@@ -17,7 +17,7 @@ const ViewProfile = () => {
 
     useEffect(() => {
         getProfileById();
-    },[] );
+    });
 
 
     const getProfileById = async () => {
