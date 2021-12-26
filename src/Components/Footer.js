@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import logo from './Assets/images/fhlogo2.png'
 
 const Footer = () => {
     return (
@@ -12,11 +13,9 @@ const Footer = () => {
                     
                     <div class="block about">
                     
-                    <img src="images/logo-footer.png" alt="" />
+                    <img style={{maxWidth: "200px", borderRadius: "10px"}}src={logo} alt="" />
                     
-                    <p class="alt-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="alt-color">We welcome every freelancer who is looking to advertise their work with us. Create an Account and get started with your advertising. Terms and conditions Apply</p>
                     </div>
                 </div>
                 
